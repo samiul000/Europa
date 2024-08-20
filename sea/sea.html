@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sea.css">
+</head>
+<body>
+
+    <div class="deep-sea">
+
+        <div class="vent">
+            <div class="smoke"></div>
+        </div>
+       
+        <div class="sea">
+            <div class="chemicals">
+                <div class="sulfide">
+                    <div class="txt">H<sub>2</sub>S</div>
+                </div>
+                <div class="sulfide-2">  
+                        <div class="txt">H<sub>2</sub>S</div>
+                </div>
+                <div class="sulfide-3">
+                        <div class="txt">H<sub>2</sub>S</div>
+                </div>
+            </div> 
+
+            <div class="microorganism" onclick="init()">
+                <div class="outer-cell">
+                    <div class="inner-cell">
+                        <div class="nucleus"></div>
+                        <div class="ribosome"></div>
+                        <div class="cytoplasm-structure"></div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </div>
+    
+    <div id="openModalBtn" class="abt-button">About</div>
+    
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Chemosynthesis</h2>
+            <P>Chemosynthesis is a process used by some organisms to produce sugar and energy without relying on sunlight, unlike photosynthesis. 
+                It primarily occurs in environments where sunlight is not available,
+                such as deep-sea hydrothermal vents or underground caves.
+            </P>
+            <P>Instead of sunlight, chemosynthetic organisms use chemical energy from inorganic molecules.
+                Common energy sources include hydrogen sulfide (H₂S), methane (CH₄), and ammonia (NH₃). 
+                As a by-products they produce Glucose or Sugar , Energy & Sulfuric Acid
+            </P>
+            <P><b>Tap on the floating bacteria & know its chemical secrets😉</b></P>
+        </div>
+    </div>
+
+    <div class="home-button" onclick="home()">Home</div>
+
+    <script src="sea.js"></script>
+</body>
+</html>
