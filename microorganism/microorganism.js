@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const materials = document.querySelector('.materials');
     const byProducts = document.querySelector('.by-products');
     const explosion = document.querySelector('.explosion');
-    const modal = document.getElementById("myModal");
+    const modal = document.getElementById("aboutModal");
     const btn = document.getElementById("openModalBtn");
     const span = document.getElementsByClassName("close")[0];
 
