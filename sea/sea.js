@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 
     // Get modal
-    var modal = document.getElementById("myModal");
+    var modal = document.getElementById("aboutModal");
 
     // Open modal btn
     var btn = document.getElementById("openModalBtn");
